@@ -49,7 +49,7 @@ resource "openstack_compute_secgroup_v2" "kubelab-kubernetes" {
     from_port = 8080
     to_port = 8080
     ip_protocol = "tcp"
-    cidr = "0.0.0.0/16"
+    cidr = "0.0.0.0/0"
   }
 }
 resource "openstack_compute_secgroup_v2" "kubelab-kube-mgnt" {
@@ -65,7 +65,7 @@ resource "openstack_compute_secgroup_v2" "kubelab-kube-mgnt" {
     from_port = 9090
     to_port = 9090
     ip_protocol = "tcp"
-    cidr = "192.168.0.0/0"
+    cidr = "192.168.0.0/16"
   }
 }
 resource "openstack_compute_secgroup_v2" "kubelab-nodeport-tests" {

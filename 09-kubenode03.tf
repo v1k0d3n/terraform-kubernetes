@@ -53,7 +53,7 @@ EOF
     "sudo mv -f /home/${var.kubenode_ssh_user_name}/kubenode/kubenode_kube01.kube /etc/kubernetes/kubelet",
     "sudo mv -f /home/${var.kubenode_ssh_user_name}/kubenode/kubenode_kube.config /etc/kubernetes/config",
     "sudo mv -f /home/${var.kubenode_ssh_user_name}/kubenode/kubenode_kube.proxy /etc/kubernetes/proxy",
-    "sudo systemctl enable flanneld kube-proxy kubelet kube-proxy",
+    "sudo systemctl enable flanneld kube-proxy kubelet",
     "sudo reboot"
   ]
   }
