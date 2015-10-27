@@ -1,0 +1,2 @@
+# JinkIT Kubelab Kubernetes Proxy Configuration File
+KUBE_PROXY_ARGS=""

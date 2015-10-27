@@ -1,0 +1,4 @@
+# JinkIT Kubelab Flannel Configuration File
+FLANNEL_ETCD="http://kubemaster.kubelab.com:2379"
+FLANNEL_ETCD_KEY="/kubelab/network"
+FLANNEL_OPTIONS="-v=3"

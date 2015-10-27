@@ -1,0 +1,3 @@
+# JinkIT Kubelab Kubernetes Control-Manager and Master/Minion Definitions
+KUBE_CONTROLLER_MANAGER_ARGS=""
+#KUBELET_ADDRESSES="--machines=10.8.80.10,10.8.80.11,10.8.80.12,10.8.80.13,10.8.80.14,10.8.80.15"
