@@ -1,8 +1,8 @@
-## Terraform Openstack Kubernetes Deployment using Fedora and Atomic
+# Terraform Openstack Kubernetes Deployment using Fedora and Atomic
 
 This Terraform deployment will allow you to deploy Kubernetes on agentless Fedora/Atomic hosts and very little prep-work.
 
-#### Devices Created with this Terraform deployment:
+## Devices Created with this Terraform deployment:
 
 <br>**Devices:**
 
@@ -31,7 +31,7 @@ This Terraform deployment will allow you to deploy Kubernetes on agentless Fedor
 * Guestbook is included under kubelab/jinkit-demo/kube/demo/guestbook. You can simply run ./guest_up.sh to bring up the working guestbook over TCP port 31234 (using nodeport).
 * Most recent Kubernetes repo is downloaded under /home/fedora/github/ so that you can run other tests.
 
-##Instructions:
+## Instructions:
 
 Read through the variables.tf file to configure the environment to your specific needs. In reality, that is all that's needed as far as configuring Terraform, unless you want to change the firewall rules etc. In that case, use this repo as a template for your own needs.
 
