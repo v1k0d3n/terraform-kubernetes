@@ -1,6 +1,6 @@
 # Kubelab Kubernetes Kubelet File
 KUBELET_ADDRESS="--address=0.0.0.0"
 # KUBELET_PORT="--port=10250"
-KUBELET_HOSTNAME="--hostname-override=10.8.80.10"
+KUBELET_HOSTNAME="--hostname-override=kubemaster"
 KUBELET_API_SERVER="--api-servers=http://10.8.80.10:8080"
 KUBELET_ARGS=""
