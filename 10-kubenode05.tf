@@ -50,7 +50,7 @@ EOF
     "sudo mv -f /home/${var.kubenode_ssh_user_name}/kubenode/docker /etc/sysconfig/docker",
     "sudo mv -f /home/${var.kubenode_ssh_user_name}/kubenode/selinux /etc/sysconfig/selinux",
     "sudo mv -f /home/${var.kubenode_ssh_user_name}/kubenode/flanneld /etc/sysconfig/flanneld",
-    "sudo mv -f /home/${var.kubenode_ssh_user_name}/kubenode/kubenode_kube01.kube /etc/kubernetes/kubelet",
+    "sudo mv -f /home/${var.kubenode_ssh_user_name}/kubenode/kubenode_kube05.kube /etc/kubernetes/kubelet",
     "sudo mv -f /home/${var.kubenode_ssh_user_name}/kubenode/kubenode_kube.config /etc/kubernetes/config",
     "sudo mv -f /home/${var.kubenode_ssh_user_name}/kubenode/kubenode_kube.proxy /etc/kubernetes/proxy",
     "sudo systemctl enable flanneld kube-proxy kubelet",
